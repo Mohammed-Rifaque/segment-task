@@ -22,7 +22,7 @@ header {
 }
 
 .MuiDialog-container.MuiDialog-scrollPaper{
-  justify-content: end;
+  justify-content: end !important;
 }
 
 .chip-wrapper {
