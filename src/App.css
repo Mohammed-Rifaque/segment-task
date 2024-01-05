@@ -7,16 +7,20 @@ header {
   margin: 0 auto;
   padding: 20px;
 }
-.title-iconwrapper{
+
+.title-iconwrapper {
   display: flex;
   gap: 20px;
 }
-.title-iconwrapper .right-arrrow{
+
+.title-iconwrapper .right-arrrow {
   transform: rotate(90deg);
 }
-.title-iconwrapper .right-arrrow svg{
+
+.title-iconwrapper .right-arrrow svg {
   color: white;
 }
+
 .MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container {
   justify-content: end;
 }
@@ -67,9 +71,14 @@ header {
   width: 50%;
 }
 
-.selected-container{
+.MuiFormControl-root {
+  width: 50%;
+}
+
+.selected-container {
   width: 100%;
 }
+
 .chip-input-remove-wrapper {
   display: flex;
   align-items: center;
@@ -87,15 +96,15 @@ header {
   gap: 10px;
 }
 
-.selected-seg{
+.selected-seg {
   display: flex;
   gap: 10px;
 }
 
-.add-schema-btn{
+.add-schema-btn {
   margin-top: 20px;
 }
 
-.segment-title{
+.segment-title {
   margin: 20px 0;
 }
