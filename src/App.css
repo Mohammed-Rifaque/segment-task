@@ -1,0 +1,101 @@
+header {
+  background-color: #39AEBC !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.title-iconwrapper{
+  display: flex;
+  gap: 20px;
+}
+.title-iconwrapper .right-arrrow{
+  transform: rotate(90deg);
+}
+.title-iconwrapper .right-arrrow svg{
+  color: white;
+}
+.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container {
+  justify-content: end;
+}
+
+.chip-wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+.rounded-chip {
+  border-radius: 50%;
+  border: unset;
+  outline: unset;
+  padding: 5px;
+}
+
+.chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.save-btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.save-btn button {
+  background-color: #4EBA9C !important;
+}
+
+.close-btn button {
+  background-color: white;
+  color: red;
+}
+
+.dialog-action {
+  justify-content: start !important;
+  background-color: #F6F6F6 !important;
+  padding: 30px 30px !important;
+}
+
+.MuiFormControl-root.css-1nrlq1o-MuiFormControl-root {
+  width: 50%;
+}
+
+.selected-container{
+  width: 100%;
+}
+.chip-input-remove-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-direction: column;
+
+}
+
+.remove-segment {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #6FA8DC;
+  padding: 20px 10px;
+  gap: 10px;
+}
+
+.selected-seg{
+  display: flex;
+  gap: 10px;
+}
+
+.add-schema-btn{
+  margin-top: 20px;
+}
+
+.segment-title{
+  margin: 20px 0;
+}
