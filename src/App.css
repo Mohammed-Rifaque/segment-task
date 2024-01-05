@@ -21,7 +21,7 @@ header {
   color: white;
 }
 
-.MuiDialog-container.MuiDialog-scrollPaper.css-hz1bth-MuiDialog-container {
+.MuiDialog-container.MuiDialog-scrollPaper{
   justify-content: end;
 }
 
