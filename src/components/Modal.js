@@ -96,6 +96,9 @@ const ModalSegment = ({ setIsModalOpen, isModalOpen }) => {
                 variant="outlined"
                 value={segmentName}
                 onChange={(e) => setSegmentName(e.target.value)}
+                InputLabelProps={{
+                    shrink: false,
+                }}
             />
             <div className="segment-title">
                 <Typography variant="h6">To save your segment, you need  to add the schemas build the query</Typography>
@@ -141,6 +144,9 @@ const ModalSegment = ({ setIsModalOpen, isModalOpen }) => {
                                         value={Object.keys(schema)[0]}
                                         onChange={handleOptionSelect}
                                         className='selected-container'
+                                        InputLabelProps={{
+                                            shrink: false,
+                                        }}
                                     >
                                         <MenuItem value="">Add Schema to segment</MenuItem>
                                         {categories?.map((item, index) => (
@@ -171,6 +177,9 @@ const ModalSegment = ({ setIsModalOpen, isModalOpen }) => {
                                 value={Object.keys(selectedOption)[0]}
                                 onChange={handleOptionSelect}
                                 className='selected-container'
+                                InputLabelProps={{
+                                    shrink: false,
+                                }}
                             >
                                 <MenuItem value="">Add Schema to segment</MenuItem>
                                 {categories?.map((item, index) => (
